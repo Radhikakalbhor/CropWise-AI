@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/analyze
+Content-Type: application/json
+
+{
+  "crop": "Tomato",
+  "growthStage": "Flowering",
+  "state": "Maharashtra",
+  "district": "Pune",
+  "soilType": "Black Soil",
+  "soilCondition": "Normal",
+  "weather": "Sunny",
+  "temperature": "30",
+  "humidity": "60",
+  "question": "My tomato leaves have yellow spots. What should I do?"
+}
